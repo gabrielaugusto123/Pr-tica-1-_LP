@@ -13,7 +13,7 @@ public class Pratica1d {
 	
 	int num ;
 	
-	double Cpf, DtaVoo , HoraVoo , numVoo ;
+	String Cpf, DtaVoo , HoraVoo , numVoo ;
 	
 	 System.out.println("1 - Cadastrar Passageiro\r\n"
 	 		+ "2 -Check in\r\n"
@@ -29,11 +29,11 @@ public class Pratica1d {
 	 case 1:
      System.out.println("insira por gentileza: CPF, Data do voo e a Hora do voo");
      
-     Cpf = entrada.nextDouble();
+     Cpf = entrada.next();
      
-     DtaVoo = entrada.nextDouble();
+     DtaVoo = entrada.next();
      
-     HoraVoo = entrada.nextDouble();
+     HoraVoo = entrada.next();
      
     	 
          System.out.println("Cadastro Efetuado com Sucesso, o numero do seu voo é : "+ gerador.nextInt(999));
@@ -44,9 +44,9 @@ public class Pratica1d {
 	 case 2:
      System.out.println("insira por gentileza: CPF, Numero do voo");
      
-	 Cpf = entrada.nextDouble();
+	 Cpf = entrada.next();
 	 
-	 numVoo = entrada.nextDouble();
+	 numVoo = entrada.next();
 	 
 	 System.out.println("Check in realizado com sucesso.");
 	 
@@ -55,9 +55,9 @@ public class Pratica1d {
 	 case 3:
 		 System.out.println("insira por gentileza: CPF, Numero do voo");
 		 
-		 Cpf = entrada.nextDouble();
+		 Cpf = entrada.next();
 		 
-		 numVoo = entrada.nextDouble();
+		 numVoo = entrada.next();
 		 
 		 System.out.println("Voo Cancelado com sucesso.");
 		 
