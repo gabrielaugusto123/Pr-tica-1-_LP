@@ -23,7 +23,7 @@ public class Pratica1d {
 	 System.out.println("Escolha um numero");
 	 
 	 num = entrada.nextInt();
-	 
+	for (int i = 0; i < 1; i++) { 
 	 switch (num) {
 	 
 	 case 1:
@@ -35,10 +35,9 @@ public class Pratica1d {
      
      HoraVoo = entrada.nextDouble();
      
-     for (int i = 0; i < 1; i++) {
     	 
-         System.out.println("Cadastro Efetuado com Sucesso, o numero do seu voo é : "+ gerador.nextInt(999));
-      }
+         System.out.println("Cadastro Efetuado com Sucesso, o numero do seu voo Ã© : "+ gerador.nextInt(999));
+      
 	 
 	 break;
 	 
@@ -72,8 +71,8 @@ public class Pratica1d {
 	 
 	 default:
 		 
-	 System.out.println("Número inválido");
-	 
+	 System.out.println("NÃºmero invÃ¡lido");
+	  }
 	 }
 }
 }
